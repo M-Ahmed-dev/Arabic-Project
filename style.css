@@ -1,0 +1,158 @@
+body {
+  font-family: "Tatweer Al Riyadh", Tahoma, sans-serif;
+  background: #fbfdf8;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  background: #fbfdf8;
+  border-radius: 12px;
+}
+
+.floating-email {
+  padding: 1rem 0.75rem;
+}
+
+.navbar-brand {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.nav-2-background {
+  background: #eaf5ed;
+  opacity: 1;
+}
+
+.searchbar {
+  padding: 10px;
+  border-radius: 16px;
+  width: 206px;
+  height: 40px;
+  /* UI Properties */
+  background: var(--secondary-container) 0% 0% no-repeat padding-box;
+  background: #d1e8d4 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  opacity: 0.12;
+}
+
+.searchbar ::placeholder {
+  color: #ffffff;
+}
+
+form {
+  width: 100%;
+  max-width: 630px;
+  padding: 25px 30px;
+  margin: auto;
+  background: #eaf5ed;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.form-btn {
+  margin-top: 30px;
+}
+
+.form-btn button {
+  background: #006d3d;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.nav-link {
+  padding: 1.5rem !important;
+}
+
+.second-nav {
+  display: flex;
+}
+.second-nav a:hover {
+  border-top: #006d3d 3px solid;
+  background: #d8e8dd;
+}
+
+.second-nav a {
+  font-weight: 700;
+}
+
+.heading {
+  margin-top: 70px;
+}
+
+.heading h1 {
+  font-size: 46px;
+  font-weight: bold;
+}
+
+.sub-heading span {
+  color: #006d3d;
+}
+
+.form-floating {
+  margin-top: 20px;
+}
+
+.active-link {
+  color: green;
+}
+
+.checkBox {
+  margin-top: 30px;
+  float: right;
+}
+
+.form-button {
+  background: #006d3d;
+  color: #ffffff;
+  border-radius: 12px;
+}
+
+.third-page-form-button button {
+  margin-top: 33px;
+}
+
+.bottom-heading {
+  margin-top: 30px;
+}
+
+.bottom-heading a {
+  text-decoration: none;
+  color: black;
+}
+
+.top-form-para {
+  margin-bottom: 150px;
+}
+
+.form-floating {
+  margin-block: 10px;
+}
+
+small {
+  float: right;
+  font-size: 11px;
+  letter-spacing: 0px;
+  color: #4f6354;
+  opacity: 1;
+  margin-top: 5px;
+}
+
+.radio-btns {
+}
+
+/* email icon styling */
+.input-group
+  > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(
+    .valid-feedback
+  ):not(.invalid-tooltip):not(.invalid-feedback) {
+  padding: 1rem 0.75rem;
+}
+
+.input-group-text {
+  padding: 1rem 1.75rem;
+}
