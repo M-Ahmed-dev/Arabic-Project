@@ -129,7 +129,7 @@ form {
 
 .bottom-heading a {
   text-decoration: none;
-  color: black;
+  color: #006d3d;
 }
 
 .top-form-para {
@@ -162,4 +162,7 @@ small {
 
 .input-group-text {
   padding: 1rem 1.75rem;
+}
+.checkbox-wrapper div {
+  text-align: start;
 }
