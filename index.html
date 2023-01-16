@@ -16,10 +16,10 @@
     <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
 
-    <title>مرحبا بالعالم!</title>
+    <title>شموس</title>
   </head>
   <body class="text-center">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-dark-bg">
       <div class="container">
         <a class="navbar-brand nav-logo" href="#">شموس</a>
         <button
@@ -38,17 +38,18 @@
           class="collapse navbar-collapse justify-content-end"
           id="navbarsExample07"
         >
-        <input type="search"
-        placeholder="بحث"
-        aria-label="Search"
-        class="searchbar"
-        >
-        
+          <form action="POST">
+            <input
+              type="search"
+              placeholder="البحث"
+              aria-label="Search"
+              class="searchbar"
+            />
           </form>
           <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle dropdown-items"
+                class="nav-link dropdown-toggle dropdown-items nav1-color"
                 href="#"
                 id="dropdown07"
                 data-bs-toggle="dropdown"
@@ -60,39 +61,39 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">إنشاء حساب</a>
+              <a class="nav-link nav1-color" href="#">إنشاء حساب</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">تسجیل الدخول</a>
+              <a class="nav-link nav1-color" href="#">تسجیل الدخول</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-   <div class="nav-2-background">
-
-     <div class="container">
-       <nav class="nav d-flex justify-content-start second-nav">
-         <a class="p-2 nav-link link-secondary active-link" href="#">الرئیسیۃ</a>
-         <a class="p-2 nav-link link-secondary" href="#">العملیات</a>
-         <a class="p-2 nav-link link-secondary" href="#">المجالس</a>
-         <a class="p-2 nav-link link-secondary" href="#">المبادرات</a>
-         <a class="p-2 nav-link link-secondary" href="#">التصویت</a>
-         <a class="p-2 nav-link link-secondary" href="#">الاستشارات</a>
-         <a class="p-2 nav-link link-secondary" href="#">المؤتمرات</a>
-         <a class="p-2 nav-link link-secondary" href="#">المساعدۃ</a>
-       </nav>
-     </div>
-   </div>
+    <div class="nav-2-background">
+      <div class="container">
+        <nav class="nav d-flex justify-content-start second-nav">
+          <a class="p-2 nav-link link-secondary" href="#">الريسية</a>
+          <a class="p-2 nav-link link-secondary" href="#">العملیات</a>
+          <a class="p-2 nav-link link-secondary" href="#">المجالس</a>
+          <a class="p-2 nav-link link-secondary" href="#">المبادرات</a>
+          <a class="p-2 nav-link link-secondary" href="#">التصویت</a>
+          <a class="p-2 nav-link link-secondary" href="#">الاستشارات</a>
+          <a class="p-2 nav-link link-secondary" href="#">المؤتمرات</a>
+          <a class="p-2 nav-link link-secondary" href="#">المساعدۃ</a>
+        </nav>
+      </div>
+    </div>
 
     <div class="heading">
       <h1 class="h3 mb-3 fw-normal">تسجیل الدخوال</h1>
     </div>
-     <div class="sub-heading"> <p>هل أنت مستخدم جديد؟  <span>أنشئ حسابك</span></p> 
-     </div>
+    <div class="sub-heading">
+      <p>هل أنت مستخدم جديد؟ <a href="/Signup.html">أنشئ حسابك</a></p>
+    </div>
 
     <main class="form-signin">
-      <form>
+      <form class="form-tag">
         <div class="form-floating">
           <p style="float: right">البريد الإلكتروني</p>
 
@@ -120,11 +121,13 @@
         </div>
 
         <button class="w-100 btn btn-lg form-button" type="submit">
-         تسجيل الدخول
+          تسجيل الدخول
         </button>
-        <div class="bottom-heading"><p>
-          <a href="">نسيت كلمة المرور؟</a>
-        </p></div>
+        <div class="bottom-heading">
+          <p>
+            <a href="/ForgotPassword.html">نسيت كلمة المرور؟</a>
+          </p>
+        </div>
       </form>
     </main>
 
