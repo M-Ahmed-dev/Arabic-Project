@@ -3,6 +3,14 @@ body {
   background: #fbfdf8;
 }
 
+.custom-dark-bg {
+  background-color: #00210f !important;
+}
+
+.nav1-color {
+  color: #d1e8d4 !important;
+}
+
 input[type="email"],
 input[type="password"],
 input[type="text"] {
@@ -17,6 +25,10 @@ input[type="text"] {
 .navbar-brand {
   font-size: 40px;
   font-weight: 700;
+}
+
+.nav1-color {
+  color: #d1e8d4 !important;
 }
 
 .dropdown-items {
@@ -43,8 +55,11 @@ input[type="text"] {
   opacity: 0.12;
 }
 
-.searchbar ::placeholder {
-  color: #ffffff;
+.searchbar::placeholder {
+  color: #9fa8a0;
+}
+.searchbar:focus-visible {
+  outline: none;
 }
 
 form {
@@ -79,7 +94,7 @@ form {
   display: flex;
 }
 .second-nav a:hover {
-  border-top: #006d3d 3px solid;
+  border-top: #00884e 5px solid;
   background: #d8e8dd;
 }
 
@@ -133,7 +148,7 @@ form {
 }
 
 .top-form-para {
-  margin-bottom: 150px;
+  margin-bottom: 90px;
 }
 
 .form-floating {
@@ -149,20 +164,37 @@ small {
   margin-top: 5px;
 }
 
-.radio-btns {
-}
-
-/* email icon styling */
-.input-group
-  > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(
-    .valid-feedback
-  ):not(.invalid-tooltip):not(.invalid-feedback) {
-  padding: 1rem 0.75rem;
+.form-floating > .form-control:focus,
+.form-floating > .form-control:not(:placeholder-shown) {
+  padding-top: unset;
+  padding-bottom: unset;
 }
 
 .input-group-text {
   padding: 1rem 1.75rem;
+  text-align: end;
+}
+
+.checkbox-wrapper {
+  margin-top: 50px;
 }
 .checkbox-wrapper div {
   text-align: start;
+}
+
+.input-group-text {
+  background: #e0ede3;
+  font-weight: 700;
+}
+
+input {
+  text-align: end;
+}
+
+.signup-form {
+  margin-bottom: 268px;
+}
+
+.form-signin {
+  margin-bottom: 268px;
 }
