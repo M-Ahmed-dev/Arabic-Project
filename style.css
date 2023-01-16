@@ -19,6 +19,13 @@ input[type="text"] {
   font-weight: 700;
 }
 
+.dropdown-items {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 10px;
+}
+
 .nav-2-background {
   background: #eaf5ed;
   opacity: 1;
