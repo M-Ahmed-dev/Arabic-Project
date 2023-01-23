@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text-center {
+  text-align: unset !important;
+}
+
+body {
+  font-family: "Tatweer Al Riyadh", Tahoma, sans-serif;
+  /* background: #006d3d; */
+  background: linear-gradient(#77f9ad, #006d3d);
+}
+
+.custom-dark-bg {
+  background-color: #00210f !important;
+}
+
+.nav1-color {
+  color: #d1e8d4 !important;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  background: #fbfdf8;
+  border-radius: 12px;
+}
+
+input::placeholder {
+  color: black;
+}
+
+.floating-email {
+  padding: 1rem 0.75rem;
+}
+
+.navbar-brand {
+  font-size: 40px;
+  font-weight: lighter;
+  color: #fbfdf8;
+}
+
+.dropdown-items {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-2-background {
+  background: #eaf5ed;
+  opacity: 1;
+}
+
+.searchbar {
+  padding: 15px;
+  width: 206px;
+  /* height: 40px; */
+  /* UI Properties */
+  background-color: #193927;
+  border-radius: 6px;
+  color: #d1e8d4;
+  border: none;
+}
+
+.searchbar::placeholder {
+  color: #9fa8a0;
+  padding-left: 20px;
+}
+.searchbar:focus-visible {
+  outline: none;
+}
+
+/* Second Nav */
+
+.nav-link {
+  padding: 1.5rem !important;
+}
+
+.second-nav {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+.second-nav a:hover {
+  border-top: #00884e 5px solid;
+  background: #d8e8dd;
+}
+
+.second-nav a {
+  font-weight: 700;
+  border-top: transparent 5px solid;
+  color: #000000;
+  font-size: 20px;
+}
+/* Background Image */
+
+.background-image {
+  background: url("../Images/Background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60vh;
+}
+
+.content-heading {
+  font: normal normal bold 57px/64px Tatweer Al Riyadh;
+  color: #00210f;
+  opacity: 1;
+  margin-bottom: 60px;
+}
+
+.content-heading p {
+  text-align: center;
+}
+
+/* Grid Cards  */
+.main-container {
+  margin: 0 60px;
+  padding: 40px;
+  background: white;
+  position: relative;
+  top: -250px;
+  border-radius: 20px;
+}
+
+.card-image img {
+  width: 100%;
+}
+
+.grid-cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 2rem;
+}
+
+@media (max-width: 874px) {
+  .grid-cards {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media (max-width: 700px) {
+  .grid-cards {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.card {
+  width: auto;
+  justify-self: center;
+  background-color: #eaf5ed;
+  border-radius: 20px;
+  border: none;
+}
+
+.arabic-description {
+  padding: 10px 0px;
+}
+
+.first-arabic-desc {
+  padding-bottom: 21px;
+}
+
+.first-arabic-desc ul li {
+  font-size: 24px;
+  font-weight: 700;
+  font-style: bold;
+  color: #00210f;
+  opacity: 1;
+}
+
+ul li::marker {
+  color: #006d3d;
+  opacity: 1;
+}
+
+ul li span {
+  position: relative;
+  left: 6px;
+}
+
+.second-arabic-desc {
+  padding: 0 17px;
+}
+
+.second-arabic-desc p {
+  font-weight: 700;
+}
+
+.second-arabic-desc .content-line-height {
+  line-height: 0;
+}
+
+.third-arabic-desc {
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Footer */
+
+.footer {
+  background: #eaf5ed 0% 0% no-repeat padding-box;
+  opacity: 1;
+  padding: 50px 0;
+}
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .container .footer-logo {
+  font: normal normal normal 45px/54px Tatweer Al Riyadh;
+  letter-spacing: 0px;
+  color: #00210f;
+  opacity: 1;
+}
+
+.footer-ordered-list ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 10px;
+
+  color: var(--unnamed-color-2c2c2c);
+  text-align: left;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.footer-ordered-list ul li {
+  font-weight: 700;
+  color: #2c2c2c;
+  font: normal normal normal 14px/21px Tatweer Al Riyadh;
+}

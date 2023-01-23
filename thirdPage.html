@@ -43,6 +43,11 @@
         aria-label="Search"
         class="searchbar"
         >
+
+        <div class="icon">
+
+          <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 32 32" width="32px" height="32px"><path d="M 19 3 C 13.488281 3 9 7.488281 9 13 C 9 15.394531 9.839844 17.589844 11.25 19.3125 L 3.28125 27.28125 L 4.71875 28.71875 L 12.6875 20.75 C 14.410156 22.160156 16.605469 23 19 23 C 24.511719 23 29 18.511719 29 13 C 29 7.488281 24.511719 3 19 3 Z M 19 5 C 23.429688 5 27 8.570313 27 13 C 27 17.429688 23.429688 21 19 21 C 14.570313 21 11 17.429688 11 13 C 11 8.570313 14.570313 5 19 5 Z"/></svg>
+    </div>
         
           </form>
         
@@ -88,11 +93,16 @@
    </div>
 
     <div class="heading">
-      <h1 class="h3 mb-3 fw-normal">تسجیل الدخوال</h1>
+      <h1 class="h3 mb-3 fw-normal">أنشاء حساب</h1>
+    </div>
+    <div class="sub-heading">
+      <p>هنا محتوى نصي من الممكن أن يتم استبداله بأي نص أخر
+        هل لديك حساب؟
+        <a href="/index.html">تسجيل دخول</a></p>
     </div>
 
     <main class="form-signin">
-      <form>
+      <form class="form-tag">
         <div class="top-form-para">
           <small>* الحقول الإلزامية مشار إليها بعلامة النجمة</small>
         </div>
@@ -103,13 +113,11 @@
             type="email"
             class="form-control"
             id="floatingInput"
-            placeholder="name@example.com"
+            placeholder="ادخل اسمك"
           />
-          <small>الاسم العام الذي يظهر في مشاركاتك. بهدف ضمان عدم الكشف عن هويته ، يمكن أن يكون أي اسم.</small>
+          <small>الاسم العام الذي يظهر في مشاركاتك. بهدف ضمان عدم الكشف عن هويته . يمكن أن يكون أي اسم.
+          </small>
         </div>
-
-
-  
          <div class="mt-5"
          >
           <p style="float: right;">اسم المستخدم*</p>
@@ -118,32 +126,35 @@
                 <div class="input-group-prepend">
                   <span class="input-group-text" id="basic-addon1">@</span>
                 </div>
-                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                <input type="email" class="form-control" placeholder="ادخل اسم المستخدم" aria-label="Username" aria-describedby="basic-addon1">
               </div>
                <small>10 أحرف كحد أدنى ، يجب ألا تكون شائعة جدًا (على سبيل المثال 123456) ويجب أن تكون مختلفة عن لقبك وبريدك الإلكتروني.</small>
              </div>
          </div>
+
+
+
+
          
          <div style="margin-top: 70px;">
            <div class="form-floating form-sec1">
-         <p style="float: right">تأكيد كلمة المرور*</p>
+         <p style="float: right">البريد الإلكتروني*</p>
             <input
             type="email"
             class="form-control floating-email"
             id="floatingInput"
-            placeholder="name@example.com"
+            placeholder="ادخل اسم المستخدم"
           />
         </div>
          </div>
 
          <div class="mt-4">
            <div class="form-floating form-sec1">
-             <p style="float: right">الاسم*</p>
+             <p style="float: right">كلمة المرور*</p>
              <input
-               type="email"
+               type="password"
                class="form-control"
                id="floatingInput"
-               placeholder="name@example.com"
              />
                <small>10 أحرف كحد أدنى ، يجب ألا تكون شائعة جدًا (على سبيل المثال 123456) ويجب أن تكون مختلفة عن لقبك وبريدك الإلكتروني.</small>
            </div>
@@ -159,7 +170,7 @@
             type="email"
             class="form-control"
             id="floatingInput"
-            placeholder="name@example.com"
+            placeholder="ادخل البريد الإلكتروني"
           />
             <small>10 أحرف كحد أدنى ، يجب ألا تكون شائعة جدًا (على سبيل المثال 123456) ويجب أن تكون مختلفة عن لقبك وبريدك الإلكتروني.</small>
         </div>
